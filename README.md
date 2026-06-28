@@ -3,7 +3,6 @@
  Aim
 To develop a Python-based tool that evaluates the strength of user passwords by analyzing multiple security parameters and providing actionable suggestions for improvement.
 
----
 
  Objectives
 - Check password length and complexity.
@@ -12,17 +11,14 @@ To develop a Python-based tool that evaluates the strength of user passwords by 
 - Calculate password entropy to estimate resistance against brute-force attacks.
 - Provide clear feedback and suggestions to strengthen weak passwords.
 
----
+
 
 Tools & Technologies
 - **Programming Language:** Python 3.x
 - **Libraries Used:** `re`, `math`
 - **Files:**
   - `password_strength.py` → Main program
-  - `common_passwords.txt` → List of weak/common passwords
-  - `results/` → Screenshots of test outputs
-
----
+  - `common_passwords.txt` → List of weak/common password
 
  Implementation
 1. User enters a password in the terminal.
@@ -37,8 +33,6 @@ Tools & Technologies
    - **Strong**
 4. Suggestions are displayed to help the user improve their password.
 
----
-
  Results
 
 | Password Tested      | Strength | Suggestions                          |
@@ -49,13 +43,5 @@ Tools & Technologies
 
 Screenshots of outputs are available in the `results/` folder.
 
----
  Conclusion
 This project demonstrates how Python can be used to evaluate password strength and raise awareness about secure password practices. By checking length, complexity, dictionary words, and entropy, the tool helps users create stronger passwords and protect themselves against cyber attacks.
-
----
-
- How to Run
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/<username>/PasswordStrengthChecker
