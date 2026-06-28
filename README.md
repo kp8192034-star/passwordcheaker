@@ -1,2 +1,2 @@
-# passwordcheaker
-password cheaker is important in creating password
+w# PasswordStrengthcheaker
+A Python project to check password strength based on length, characters, and complexity.
